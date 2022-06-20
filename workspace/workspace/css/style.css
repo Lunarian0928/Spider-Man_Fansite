@@ -1,0 +1,140 @@
+@font-face {
+    font-family: GmarketSansTTFBold;
+    src: url(font/GmarketSansTTFBold.woff) format("woff");
+}
+
+@font-face {
+    font-family: GmarketSansTTFMedium;
+    src: url(font/GmarketSansTTFMedium.woff) format("woff");
+}
+
+@font-face {
+    font-family: GmarketSansTTFLight;
+    src: url(font/GmarketSansTTFLight.woff) format("woff");
+}
+
+body {
+  background-color: black;
+  
+  margin: 0;
+
+  font-family: "GmarketSansTTFMedium", GmarketSansTTFMedium;
+}
+
+#cover {
+  text-align: center;
+}
+
+#introduction {
+  border: 1px solid black;  
+  margin: 0;
+}
+
+#series {
+  border: 1px solid black;
+  margin: 0;
+}
+
+#series > ul {
+  list-style: none;
+  padding: 0;
+}
+
+#series li {
+  margin: 20px;
+
+  font-family: "GmarketSansTTFLight", GmarketSansTTFLight;
+  color: white;
+}
+
+
+h1, h2 {
+  padding: 20px;
+  margin: 0;
+ 
+  background-color: black;
+  border-bottom: 1px solid white;
+  text-shadow: 4px 0px 4px #00AAFF;
+
+  font-family: "GmarketSansTTFBold", GmarketSansTTFBold;
+  color: white;
+}
+
+h1 {
+  font-size: 4vmin;
+}
+
+h2 {
+  font-size: 3vmin;
+}
+
+h3 {
+  font-size: 2vmin;
+}
+h3 a {
+  text-decoration: underline;
+  text-decoration-color: #DF0000;
+  text-decoration-thickness: 10px;
+}
+
+p {
+  padding: 20px;
+  margin: 0;
+  border: 1px solid black;
+  
+  font-family: "GmarketSansTTFLight", GmarketSansTTFLight;
+  font-size: 2vmin;
+  color: white;
+}
+
+p span {
+  color: #DF0000;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+}
+
+li {
+  font-size: 2vmin;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  display: inline-block;
+  margin: 0px auto;
+}
+
+
+
+.poster {
+  text-align: center;
+}
+
+li img {
+  max-width: 30%;
+  heigth: auto;
+}
+
+@media screen and (min-width: 1080px) {
+  #cover_img {
+    max-width: 1067px;
+    height: auto;
+
+   display: block-inline;
+   margin: 0px auto;
+  }
+
+  li img {
+    max-width: 306px;
+    heigth: auto;
+  }
+}
+
+
+
+
